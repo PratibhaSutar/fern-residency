@@ -25,9 +25,35 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+
+             "src/assets/vendor/bootstrap/css/bootstrap.min.css",
+             "src/assets/vendor/font-awesome/css/font-awesome.min.css",
+             "src/assets/vendor/animate/animate.min.css",
+             "src/assets/vendor/slick/slick.css",
+             "src/assets/vendor/slick/slick-theme.css",
+             "src/assets/vendor/tempusdominus/css/tempusdominus-bootstrap-4.min.css",
+             "src/assets/css/hover-style.css",
+             "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+
+             "src/assets/vendor/jquery/jquery.min.js",
+             "src/assets/vendor/jquery/jquery-migrate.min.js",
+             "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js",
+             "src/assets/vendor/easing/easing.min.js",
+             "src/assets/vendor/stickyjs/sticky.js",
+             "src/assets/vendor/superfish/hoverIntent.js",
+             "src/assets/vendor/superfish/superfish.min.js",
+             "src/assets/vendor/wow/wow.min.js",
+             "src/assets/vendor/slick/slick.min.js",
+             "src/assets/vendor/tempusdominus/js/moment.min.js",
+             "src/assets/vendor/tempusdominus/js/moment-timezone.min.js",
+             "src/assets/vendor/tempusdominus/js/tempusdominus-bootstrap-4.min.js",
+             "src/assets/js/booking.js",
+             "src/assets/js/jqBootstrapValidation.min.js",
+             "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +120,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c0113b68-058a-41af-92c7-035246f2b5fe"
   }
 }

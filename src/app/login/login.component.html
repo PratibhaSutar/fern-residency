@@ -1,0 +1,62 @@
+ <!-- Login Section Start -->
+ <div id="login">
+    <div class="container">
+        <div class="section-header">
+            <h2>Registration / Login</h2>
+           
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="login-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="control-group col-sm-6">
+                                <label>User Name</label>
+                                <input type="text" class="form-control" required="required" placeholder="Please enter user name" [ngModelOptions]="{standalone: true}" [(ngModel)]="signupObj.userName" />
+                            </div>
+                            <div class="control-group col-md-6">
+                                <label>Mobile</label>
+                                <input type="text" class="form-control" [ngModelOptions]="{standalone: true}"  [(ngModel)]="signupObj.mobileno" placeholder="Please enter  mobile no." required="required" data-validation-required-message="Please enter your mobile number" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group col-sm-6">
+                                <label>Email</label>
+                                <input type="email" class="form-control" required="required" placeholder="Please enter email address"  [ngModelOptions]="{standalone: true}" [(ngModel)]="signupObj.email"/>
+                            </div>
+                        </div>
+
+                      
+                        <div class="form-row">
+                            <div class="control-group col-sm-6">
+                                <label>Password</label>
+                                <input type="password" class="form-control" required="required" placeholder="Please enter password" [ngModelOptions]="{standalone: true}" [(ngModel)]="signupObj.password"/>
+                            </div>
+                            
+                        </div>
+                        <div class="button"><button type="submit"  (click)="onsignUp()">Registration</button></div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="login-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="control-group col-sm-6">
+                                <label>Email</label>
+                                <input type="email" class="form-control" required="required" placeholder="Please enter email address" [ngModelOptions]="{standalone: true}" [(ngModel)]="loginObj.email">
+                            </div>
+                            <div class="control-group col-sm-6">
+                                <label>Password</label>
+                                <input type="password" class="form-control" required="required"  placeholder="Please enter password" [ngModelOptions]="{standalone: true}" [(ngModel)]="loginObj.password" />
+                            </div>
+                        </div>
+                        <div class="button"><button type="submit" (click)="onLogin()">Login</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/> 
+<!-- Login Section End -->
